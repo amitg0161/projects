@@ -28,5 +28,24 @@ This project visualizes COVID-19 case trends worldwide for selected countries us
 - Files:
   - Visualization/Covid_Visualization.ipynb
 
+## 4. Text-Based Adventure Game
+This project is an interactive command-line adventure game in which the player explores an ancient land in search of legendary treasure.
+
+- Objective: find the treasure by making strategic decisions and overcoming obstacles
+- Gameplay: enter a player name, choose between a dark forest and a mysterious cave, and respond to location-specific challenges
+- Functions:
+  - `start_game()`: displays the introduction, collects the player's name, and starts the chosen path
+  - `forest_path()`: handles the river and tree decisions
+  - `cave_path()`: handles the torch and darkness decisions
+  - `main()`: runs the game loop and offers the option to restart
+- Outcomes:
+  - Winning: follow the river or light the torch to find the treasure
+  - Losing: climb the tree or proceed in the dark and end the quest
+  - Restarting: replay the adventure after either outcome
+- Files:
+  - adventure_game.py
+- Run command:
+  - `python adventure_game.py`
+
 ## Summary
-These projects demonstrate practical applications of Python, data analysis, forecasting, and visualization for real-world datasets.
+These projects demonstrate practical applications of Python, data analysis, forecasting, visualization, functions, conditionals, and interactive command-line programming.
