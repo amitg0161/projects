@@ -46,6 +46,12 @@ This project is an interactive command-line adventure game in which the player e
   - adventure_game.py
 - Run command:
   - `python adventure_game.py`
+ 
+## 5. Boston Housing Analysis
+
+This project demonstrates a small, reproducible regression workflow for the Boston housing dataset: data loading, tabular analysis, optional EDA plots, and comparison of linear, Ridge, and Lasso regression.
+
+The dataset is loaded from OpenML because sklearn.datasets.load_boston was removed from scikit-learn. The first run requires network access to download the cached dataset.
 
 ## Summary
 These projects demonstrate practical applications of Python, data analysis, forecasting, visualization, functions, conditionals, and interactive command-line programming.
