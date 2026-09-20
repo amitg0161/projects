@@ -47,5 +47,20 @@ This project is an interactive command-line adventure game in which the player e
 - Run command:
   - `python adventure_game.py`
 
+## 5. NutriWise AI Calorie Tracker
+NutriWise is a local-first calorie tracker that converts natural-language meal descriptions into nutrition estimates and maintains a daily meal log through a Gradio interface.
+
+- Features: local food matching, daily calorie summaries, saved meal records, and custom food management
+- Estimation providers: local dataset, optional USDA FoodData Central, Gemini, OpenAI, and Ollama
+- Goal: make nutrition tracking usable without requiring external credentials while supporting richer estimates when providers are configured
+- Files:
+  - Nutriwise_ai_llm_powered_calorie_tracker/app.py
+  - Nutriwise_ai_llm_powered_calorie_tracker/nutrition.py
+  - Nutriwise_ai_llm_powered_calorie_tracker/storage.py
+  - Nutriwise_ai_llm_powered_calorie_tracker/data/healthy_meal_plans.csv
+  - Nutriwise_ai_llm_powered_calorie_tracker/README.md
+- Run command:
+  - `python app.py`
+
 ## Summary
-These projects demonstrate practical applications of Python, data analysis, forecasting, visualization, functions, conditionals, and interactive command-line programming.
+These projects demonstrate practical applications of Python, data analysis, forecasting, visualization, AI-assisted applications, functions, conditionals, and interactive programming.
