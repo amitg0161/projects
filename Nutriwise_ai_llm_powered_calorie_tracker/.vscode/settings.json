@@ -1,0 +1,15 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^pytest -q; python -m py_compile app\\.py nutrition\\.py storage\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "Move-Item": true,
+        "Test-Path": true,
+        "/^\\.\\\\\\.venv\\\\Scripts\\\\python\\.exe -c \"from app import handle_user_food_table_update; rows=\\[\\['boiled eggs',1,34,10,4,4,12,0,1,0,0,0,1,0\\]\\]; print\\(handle_user_food_table_update\\(rows\\)\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        ".\\.venv\\Scripts\\python.exe": true
+    }
+}
