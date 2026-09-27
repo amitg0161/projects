@@ -1,6 +1,6 @@
 # Projects Portfolio
 
-This repository contains a collection of data-driven mini projects focused on business analysis, forecasting, and data visualization.
+This repository contains a collection of data-driven mini projects focused on business analysis, forecasting, visualization, AI-assisted applications, and interactive Python tools.
 
 ## 1. Customer Data Analysis
 This project analyzes customer order data to understand spending behavior, category trends, and customer segmentation.
@@ -43,20 +43,43 @@ This project is an interactive command-line adventure game in which the player e
   - Losing: climb the tree or proceed in the dark and end the quest
   - Restarting: replay the adventure after either outcome
 - Files:
-  - adventure_game.py
+  - Adventure Game/adventure_game.py
+  - Adventure Game/report.md
 - Run command:
   - `python adventure_game.py`
- 
-## 5. Boston Housing Analysis
 
+## 5. Boston Housing Analysis
 This project demonstrates a small, reproducible regression workflow for the Boston housing dataset: data loading, tabular analysis, optional EDA plots, and comparison of linear, Ridge, and Lasso regression.
 
-The dataset is loaded from OpenML because sklearn.datasets.load_boston was removed from scikit-learn. The first run requires network access to download the cached dataset.
+- Dataset: Boston housing data from OpenML
+- Goal: assess model performance and feature relationships in a classic regression task
+- Files:
+  - Boston-housing/boston_house_sklearn.py
+  - Boston-housing/data.py
+  - Boston-housing/analysis.py
+  - Boston-housing/eda.py
+  - Boston-housing/modeling.py
+  - Boston-housing/README.md
+- Run command:
+  - `python boston_house_sklearn.py`
 
-## 5. NutriWise AI Calorie Tracker
+## 6. Nestlé HR Policy Assistant
+This project is a local Gradio application for querying approved HR policy PDFs. It retrieves relevant passages, grounds answers in the source documents, and cites the associated PDF pages when responding.
+
+- Features: policy indexing, semantic retrieval, prompt-grounded Q&A, source citations, and rebuildable local vector storage
+- Tech stack: Python, PyPDF, Chroma, LangChain-style retrieval flow, and a Gradio UI
+- Files:
+  - Nestle HR Policy Assistant/app.py
+  - Nestle HR Policy Assistant/README.md
+  - Nestle HR Policy Assistant/.env.example
+  - Nestle HR Policy Assistant/FINAL_REPORT.md
+- Run command:
+  - `python app.py`
+
+## 7. NutriWise AI Calorie Tracker
 NutriWise is a local-first calorie tracker that converts natural-language meal descriptions into nutrition estimates and maintains a daily meal log through a Gradio interface.
 
-- Features: local food matching, daily calorie summaries, saved meal records, and custom food management
+- Features: local food matching, daily calorie summaries, saved meal records, custom food management, and optional AI-powered estimation providers
 - Estimation providers: local dataset, optional USDA FoodData Central, Gemini, OpenAI, and Ollama
 - Goal: make nutrition tracking usable without requiring external credentials while supporting richer estimates when providers are configured
 - Files:
@@ -69,4 +92,4 @@ NutriWise is a local-first calorie tracker that converts natural-language meal d
   - `python app.py`
 
 ## Summary
-These projects demonstrate practical applications of Python, data analysis, forecasting, visualization, AI-assisted applications, functions, conditionals, and interactive programming.
+These projects demonstrate practical applications of Python, data analysis, forecasting, visualization, business intelligence, decision-support tools, and AI-assisted interactive applications.
