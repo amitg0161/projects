@@ -1,0 +1,3 @@
+meal_name,num_ingredients,calories,prep_time,protein,fat,carbs,vegan,vegetarian,non_vegetarian,keto,paleo,gluten_free,mediterranean,is_healthy
+egg,0,45,0,6,1,12,0,0,,0,0,0,0,0
+chicken,0,234,0,12,0,22,0,0,1,0,0,0,0,0
